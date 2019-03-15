@@ -3,3 +3,4 @@
 ## Exercices
 
 1. Créer une page HTML5 en suivant l'image en indication et y inclure la librairie Bulma.
+2. Ajouter un formulaire qui, à l'envoi, rajoute la valeur d'un input dans la page (pas de rafraichissement ni AJAX).
