@@ -1,21 +1,34 @@
 document.addEventListener("DOMContentLoaded", function() {
-  let wordInput
-  let form = document.getElementById("dom-form")
-  let elem
 
-  form.addEventListener("submit", function(evt) {
-      evt.preventDefault()
+  //Define variable
+  let form = document.getElementById("dom-form")
+  let wordInput
+  let div
+
+  //Submit event on form
+  form.addEventListener("submit", function(e) {
+
+      e.preventDefault()
+
+      //Get value from my form
       wordInput = document.getElementById("value").value
       AddText()
   })
   
+  //Add text to my DOM
   function AddText() {
-    elem = document.querySelector('#dom-exercice');
-    var div = document.createElement('div');
+    //Create div
+    div = document.createElement('div')
+    //Add class to my new div
+    div.className = 'dynamic-value'
+    //Add text to my new div
+    div.innerHTML = wordInput
 
-    div.innerHTML = wordInput;
-    elem.parentNode.insertBefore( div, elem );
-    elem.parentNode.insertBefore( div, elem.nextSibling )
+    //Insert data after my form
+    form.parentNode.insertBefore( div, form.nextSibling )
+
+    //Remove value on my form⁄
     form.reset()
   }
+
 })
