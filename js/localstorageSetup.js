@@ -1,3 +1,6 @@
+// Check the array.reduce() method on this Stackoverflow post :
+// https://stackoverflow.com/questions/14832603/check-if-all-values-of-array-are-equal
+
 // Setup exercise
 let users = [{ name: "François" }, { name: "Bob" }, { name: "Louis" }]
 let finalUsers = [
@@ -17,12 +20,9 @@ document.getElementById("checkButton").addEventListener("click", checkResult)
 function checkResult() {
   let resultDiv = document.getElementById("result")
   let result = JSON.parse(localStorage.getItem("users"))
-
-  if (compareResult(finalUsers, result)) {
-    resultDiv.innerText = "Correct !"
-  } else {
-    resultDiv.innerText = "Incorrect !"
-  }
+  resultDiv.innerText = compareResult(finalUsers, result)
+    ? "Correct !"
+    : (resultDiv.innerText = "Incorrect !")
 }
 
 function compareResult(finalUsers, results) {
