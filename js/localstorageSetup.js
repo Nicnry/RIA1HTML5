@@ -1,6 +1,3 @@
-// Check the array.reduce() method on this Stackoverflow post :
-// https://stackoverflow.com/questions/14832603/check-if-all-values-of-array-are-equal
-
 // Setup exercise
 let users = [{ name: "François" }, { name: "Bob" }, { name: "Louis" }]
 let finalUsers = [
@@ -13,10 +10,8 @@ let finalUsers = [
 localStorage.setItem("users", JSON.stringify(users))
 JSON.parse(localStorage.getItem("users"))
 
-// Need to bind events like this if you obfuscate the code
 document.getElementById("checkButton").addEventListener("click", checkResult)
 
-// Gather all required data and then informs user if he correctly completed the exercise
 function checkResult() {
   let resultDiv = document.getElementById("result")
   let result = JSON.parse(localStorage.getItem("users"))
