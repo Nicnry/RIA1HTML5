@@ -1,6 +1,6 @@
 # RIA1HTML5
 
-## Exercices manipulation de DOM
+## Exercices manipulation de DOM - [ 15 min ]
 
 1. Créer une page HTML5 en suivant l'image en indication et y inclure la librairie Bulma.
 2. Ajouter un formulaire qui, à l'envoi, rajoute la valeur d'un input dans la page (pas de rafraichissement ni AJAX).
@@ -121,13 +121,6 @@ Le résultat final devra être le suivant :
 
 ![Resultat](./data-help/Result2.PNG "Deuxieme resultat")
 
-<<<<<<< HEAD
-
-
-
-
-
-
 ## Exercice WebWorkers - HTML5 (20 min)
 
 ### Objectifs
@@ -158,7 +151,6 @@ https://www.synbioz.com/blog/introduction_aux_web_workers
 
 https://www.html5rocks.com/en/tutorials/workers/basics/
 
-=======
 ## Exercices localStorage [5 - 10 min]
 
 Le but de cet exercice est de se familiariser avec l'utilisation du localStorage.
@@ -171,4 +163,3 @@ Le but de cet exercice est de se familiariser avec l'utilisation du localStorage
 
 1. De quelle(s) manière(s) peut-on vérifier le contenu du localStorage ?
 2. Dans quels cas on utilise le localStorage ou les cookies ? Donnez un exemple pour chacun
->>>>>>> 0d92fef363e244d5a923bd70df78dd3f689774bf
