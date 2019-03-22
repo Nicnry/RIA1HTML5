@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,10 @@
     <link rel="stylesheet" href="css/main.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="js/main.js"></script>
+    <script src="../js/localstorageSetup.js"></script>
+    <script src="./js/localstorage.js"></script>
 </head>
+
 <body>
     <header class="header">
         <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -17,29 +21,30 @@
                 <a class="navbar-item" href="#">
                     Your beautiful logo
                 </a>
-        
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
             </div>
-        
+
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
                     <a class="navbar-item">
                         Menu example 1
                     </a>
-        
+
                     <a class="navbar-item">
                         Menu example 2
                     </a>
-        
+
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">
                             Sub menu
                         </a>
-        
+
                         <div class="navbar-dropdown">
                             <a class="navbar-item">
                                 Sub 1
@@ -70,7 +75,7 @@
     <section class="section" id="dom">
         <div class="container">
             <h2 class="subtitle">
-            Section for DOM work
+                Section for DOM work
             </h2>
             <p>You can do your exercice here.</p>
             <form action="#" id="dom-form">
@@ -96,28 +101,37 @@
     <section class="section" id="webworkers">
         <div class="container">
             <h2 class="subtitle">
-            Section for 
+                Section for
             </h2>
             <p>You can do your exercice here.</p>
         </div>
     </section>
-    
-    <section class="section" id="">
+
+    <section class="section" id="localStorage">
         <div class="container">
             <h2 class="subtitle">
-            Section for 
+                Section for localStorage
             </h2>
             <p>You can do your exercice here.</p>
+            <div id="storageContent"><br /></div>
+            <button id="displayStorage">Afficher le contenu de localStorage</button>
+            <div id="result" style="margin: 10px; background-color: lightgray; width: 100px; text-align: center;">
+                <br />
+            </div>
+            <button id="checkButton">Contrôler le résultat</button>
+        </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
-                <strong>HTML</strong> by Quentin N., Sacha, Alex, Nico. find more <a href="https://drive.google.com/drive/folders/1YIlv8C7W1kLg__Kg9NJ3H_IVliuv6K36">here</a>.
+                <strong>HTML</strong> by Quentin N., Sacha, Alex, Nico. find more <a
+                    href="https://drive.google.com/drive/folders/1YIlv8C7W1kLg__Kg9NJ3H_IVliuv6K36">here</a>.
             </p>
         </div>
-      </footer>
-      <script src="js/canvas.js"></script>
+    </footer>
+    <script src="js/canvas.js"></script>
 </body>
+
 </html>
