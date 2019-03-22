@@ -123,10 +123,10 @@ Le résultat final devra être le suivant :
 
 ## Exercices localStorage [5 - 10 min]
 
-Le but de cet exercice est de se familiariser avec l'utilisation du localStorage
+Le but de cet exercice est de se familiariser avec l'utilisation du localStorage.
 
 1. Récupérez le contenu de localStorage sous la clé **users**
-2. Affichez-le dans une balise <div> de manière user-friendly
+2. Listez les utilisateurs dans la section correspondante
 3. Ajoutez les utilisateurs **Marcel** et **Jean-Jacques** dans le storage
 
 ### Questions 
