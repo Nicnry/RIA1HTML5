@@ -8,15 +8,31 @@
 ### Exercice avancé
 1. Ajoutez une couleur aléatoire à chaque création de div (voir exercice 2).
 
-## Exercices SVG & Canvas
+## Exercices SVG & Canvas - [ 25 min ]
 
 ### Introduction
 
 Le but de cet exercice est de recréer le schèma ci-dessous en "Canvas", ce schema se trouve déjà sur le template fourni pour l'éxercice, mais il ne contient pas les tailles des objets.
 
-![Resultat](./data-help/ShapesPX.jpg "Premier resultat")
+![Resultat](./data-help/ShapesPX.jpg "Introduction")
 
 Une fois que la création du canvas sera terminé, il vous faudra apporter une modification au canvas, puis apporter la même modifcation au SVG.
+
+
+
+### Pré-requis 
+
+Copié/collé le code suivant, dans la section "SVG et canvas"
+
+```html
+<div class="Label">SVG</div>
+<img id="mySvg" src="img\Shapes.svg" alt="img\Shapes">
+<div class="Label">Canvas</div>
+<canvas id="myCanvas"></canvas>
+<script src="canvas.js"></script>
+```
+
+
 
 ---
 
@@ -83,7 +99,7 @@ Dans un fichier .svg se trouve une partie "Style" qui fonctionne comme du CSS, l
 
 ### Consignes
 
-#### Exercice 1 :
+#### Exercice 1 : [ 20 min ]
 
 Reproduire en canvas, le contenu du SVG directement disponible sur le template.
 
@@ -93,7 +109,7 @@ Le résultat final devra être le suivant :
 
 ---
 
-#### Exercice 2 : 
+#### Exercice 2 : [ 5 min ]
 
 - Rendre le carré rouge
 - Rendre le rond noir
