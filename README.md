@@ -14,7 +14,7 @@
 
 Le but de cet exercice est de recréer le schèma ci-dessous en "Canvas", ce schema se trouve déjà sur le template fourni pour l'éxercice, mais il ne contient pas les tailles des objets.
 
-![Resultat](./data-help/ShapesPX.jpg "Premier resultat")
+![Resultat](./data-help/ShapesPX.jpg "Introduction")
 
 Une fois que la création du canvas sera terminé, il vous faudra apporter une modification au canvas, puis apporter la même modifcation au SVG.
 
