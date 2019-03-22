@@ -8,7 +8,7 @@
 ### Exercice avancé
 1. Ajoutez une couleur aléatoire à chaque création de div (voir exercice 2).
 
-## Exercices SVG & Canvas
+## Exercices SVG & Canvas - [ 25 min ]
 
 ### Introduction
 
@@ -99,7 +99,7 @@ Dans un fichier .svg se trouve une partie "Style" qui fonctionne comme du CSS, l
 
 ### Consignes
 
-#### Exercice 1 :
+#### Exercice 1 : [ 20 min ]
 
 Reproduire en canvas, le contenu du SVG directement disponible sur le template.
 
@@ -109,7 +109,7 @@ Le résultat final devra être le suivant :
 
 ---
 
-#### Exercice 2 : 
+#### Exercice 2 : [ 5 min ]
 
 - Rendre le carré rouge
 - Rendre le rond noir
