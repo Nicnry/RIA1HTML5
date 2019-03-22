@@ -1,5 +1,14 @@
-let myUsers = JSON.parse(localStorage.getItem("users"))
+document.addEventListener("DOMContentLoaded", function () {
+  let myUsers = JSON.parse(localStorage.getItem("users"))
 
-myUsers = [...myUsers, { name: "Jean-Jacques" }, { name: "Marcel" }]
+  storageDiv = document.getElementById("storageContent")
+  myUsers.forEach(user => {
+    let userDiv = document.createElement("div")
+    userDiv.innerHTML = user.name
+    storageDiv.appendChild(userDiv)
+  })
 
-localStorage.setItem("users", JSON.stringify(myUsers))
+  myUsers = [...myUsers, { name: "Jean-Jacques" }, { name: "Marcel" }]
+
+  localStorage.setItem("users", JSON.stringify(myUsers))
+})
