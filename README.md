@@ -121,6 +121,7 @@ Le résultat final devra être le suivant :
 
 ![Resultat](./data-help/Result2.PNG "Deuxieme resultat")
 
+<<<<<<< HEAD
 
 
 
@@ -157,3 +158,17 @@ https://www.synbioz.com/blog/introduction_aux_web_workers
 
 https://www.html5rocks.com/en/tutorials/workers/basics/
 
+=======
+## Exercices localStorage [5 - 10 min]
+
+Le but de cet exercice est de se familiariser avec l'utilisation du localStorage.
+
+1. Récupérez le contenu de localStorage sous la clé **users**
+2. Listez les utilisateurs dans la section correspondante
+3. Ajoutez les utilisateurs **Marcel** et **Jean-Jacques** dans le storage
+
+### Questions 
+
+1. De quelle(s) manière(s) peut-on vérifier le contenu du localStorage ?
+2. Dans quels cas on utilise le localStorage ou les cookies ? Donnez un exemple pour chacun
+>>>>>>> 0d92fef363e244d5a923bd70df78dd3f689774bf
