@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Setup exercise
-  let users = [{ name: "François" }, { name: "Bob" }, { name: "Louis" }]
+  let users = [{ name: "François" }, { name: "Guillaume" }, { name: "Louis" }]
   let finalUsers = [
     ...users,
     { name: "Marcel", matched: false },
