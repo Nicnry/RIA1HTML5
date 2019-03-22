@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RIA1 - HTML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="js/main.js"></script>
+    <script src="../js/localstorageSetup.js"></script>
+    <script src="./js/localstorage.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    Your beautiful logo
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        Menu example 1
+                    </a>
+
+                    <a class="navbar-item">
+                        Menu example 2
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Sub menu
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Sub 1
+                            </a>
+                            <a class="navbar-item">
+                                Sub 2
+                            </a>
+                            <a class="navbar-item">
+                                Sub 3
+                            </a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                                Another link
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section" id="title">
+        <div class="container">
+            <h1 class="title">HTML exercices - CORRIGE</h1>
+        </div>
+    </section>
+
+    <section class="section" id="dom">
+        <div class="container">
+            <h2 class="subtitle">
+                Section for DOM work
+            </h2>
+            <p>You can do your exercice here.</p>
+            <form action="#" id="dom-form">
+                Votre phrase <input type="text" id="value" placeholder="J'aime les licornes">
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </section>
+
+    <section class="section" id="svg">
+        <div class="container">
+            <h2 class="subtitle">
+                SVG & Canvas
+            </h2>
+            <p>You can do your exercice here.</p>
+            <div class="Label">SVG</div>
+            <img id="mySvg" src="img\Shapes.svg" alt="img\Shapes">
+            <div class="Label">Canvas</div>
+            <canvas id="myCanvas"></canvas>
+        </div>
+    </section>
+
+    <section class="section" id="webworkers">
+        <div class="container">
+            <h2 class="subtitle">
+<<<<<<< HEAD
+            Web Workers
+=======
+                Section for
+>>>>>>> 0d92fef363e244d5a923bd70df78dd3f689774bf
+            </h2>
+			<h3>worker.js</h3>
+	 <code>onmessage = function(e)</code><br>
+	 <code>{</code><br>
+	 <code>	&nbsp; if(!isNaN(e.data[0] * e.data[1]))</code><br>
+	 <code>&nbsp;&nbsp;  postMessage(e.data[0] * e.data[1]);</code><br>
+	 <code>	&nbsp; else</code><br>
+	 <code>&nbsp;&nbsp;  postMessage(e.data[0] + e.data[1]);</code><br>
+	 <code>}</code><br>
+
+
+				</div>
+        </div>
+    </section>
+
+    <section class="section" id="localStorage">
+        <div class="container">
+            <h2 class="subtitle">
+                Section for localStorage
+            </h2>
+            <p>You can do your exercice here.</p>
+            <div id="storageContent"><br /></div>
+            <button id="displayStorage">Afficher le contenu de localStorage</button>
+            <div id="result" style="margin: 10px; background-color: lightgray; width: 100px; text-align: center;">
+                <br />
+            </div>
+            <button id="checkButton">Contrôler le résultat</button>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>HTML</strong> by Quentin N., Sacha, Alex, Nico. find more <a
+                    href="https://drive.google.com/drive/folders/1YIlv8C7W1kLg__Kg9NJ3H_IVliuv6K36">here</a>.
+            </p>
+        </div>
+    </footer>
+    <script src="js/canvas.js"></script>
+</body>
+
+</html>
