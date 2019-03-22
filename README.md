@@ -18,6 +18,22 @@ Le but de cet exercice est de recréer le schèma ci-dessous en "Canvas", ce sch
 
 Une fois que la création du canvas sera terminé, il vous faudra apporter une modification au canvas, puis apporter la même modifcation au SVG.
 
+
+
+### Pré-requis 
+
+Copié/collé le code suivant, dans la section "SVG et canvas"
+
+```html
+<div class="Label">SVG</div>
+<img id="mySvg" src="img\Shapes.svg" alt="img\Shapes">
+<div class="Label">Canvas</div>
+<canvas id="myCanvas"></canvas>
+<script src="canvas.js"></script>
+```
+
+
+
 ---
 
 ### Commandes utiles
