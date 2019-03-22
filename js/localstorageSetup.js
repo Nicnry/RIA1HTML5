@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let result = JSON.parse(localStorage.getItem("users"))
     resultDiv.innerText = compareResult(finalUsers, result)
       ? "Correct !"
-      : (resultDiv.innerText = "Incorrect !")
+      : "Incorrect !"
   }
 
   function compareResult(finalUsers, results) {
