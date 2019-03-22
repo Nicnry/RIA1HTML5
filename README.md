@@ -120,3 +120,40 @@ Reproduire ceci également sur le SVG qui se trouve dans (/images/shapes.svg)
 Le résultat final devra être le suivant : 
 
 ![Resultat](./data-help/Result2.PNG "Deuxieme resultat")
+
+
+
+
+
+
+
+## Exercice WebWorkers - HTML5 (20 min)
+
+### Objectifs
+
+Créer un WebWorker et lui assigner une tâche.
+
+### Informations
+
+WebWorkers API ne fonctionne pas en local avec **Google Chrome**, il va falloir utiliser un autre navigateur. Testé et validé avec Firefox.
+
+#### Dossier source : RIA1HTML5/exerciceWebWorkers
+
+#### Partie 1
+
+Pour la première partie, l'objectif va être de multiplier la valeur 1 par la valeur 2 et d'afficher le résultat dessous. Pour ce faire, le fichier main.js est déjà complet, il vous faudra modifier le fichier *worker.js* contenant la logique du Worker. Voici le résultat souhaité :
+
+![Capture](C:\Users\Sacha.GRENIER\Desktop\WebWorkers\Capture.PNG)
+
+#### Partie 2
+
+Si l'utilisateur tape du texte dans les champs, le calcul ne doit plus être une multiplication mais une addition. Voici le résultat souhaité : 
+
+![Capture2](C:\Users\Sacha.GRENIER\Desktop\WebWorkers\Capture2.PNG)
+
+#### Aide : 
+
+https://www.synbioz.com/blog/introduction_aux_web_workers
+
+https://www.html5rocks.com/en/tutorials/workers/basics/
+
