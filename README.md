@@ -5,16 +5,16 @@
 1. Créer une page HTML5 en suivant l'image en indication et y inclure la librairie Bulma.
 2. Ajouter un formulaire qui, à l'envoi, rajoute la valeur d'un input dans la page (pas de rafraichissement ni AJAX).
 
-## Exercice avancé
+### Exercice avancé
 1. Ajoutez une couleur aléatoire à chaque création de div (voir exercice 2).
 
-## SVG & Canvas
+## Exercices SVG & Canvas
 
 ### Introduction
 
 Le but de cet exercice est de recréer le schèma ci-dessous en "Canvas", ce schema se trouve déjà sur le template fourni pour l'éxercice, mais il ne contient pas les tailles des objets.
 
-![](C:\wamp64\www\RIA1HTML5\Canvas_SVG\Doc\ShapesPX.jpg)
+![Resultat](./data-help/ShapesPX.jpg "Premier resultat")
 
 Une fois que la création du canvas sera terminé, il vous faudra apporter une modification au canvas, puis apporter la même modifcation au SVG.
 
@@ -89,7 +89,7 @@ Reproduire en canvas, le contenu du SVG directement disponible sur le template.
 
 Le résultat final devra être le suivant : 
 
-![](C:\wamp64\www\RIA1HTML5\Canvas_SVG\Corrigé 1\Result1.PNG)
+![Resultat](./data-help/Result1.PNG "Premier resultat")
 
 ---
 
@@ -103,4 +103,4 @@ Reproduire ceci également sur le SVG qui se trouve dans (/images/shapes.svg)
 
 Le résultat final devra être le suivant : 
 
-![](C:\wamp64\www\RIA1HTML5\Canvas_SVG\Corrigé 2\Result2.PNG)
+![Resultat](./data-help/Result2.PNG "Deuxieme resultat")
