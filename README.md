@@ -104,3 +104,16 @@ Reproduire ceci également sur le SVG qui se trouve dans (/images/shapes.svg)
 Le résultat final devra être le suivant : 
 
 ![Resultat](./data-help/Result2.PNG "Deuxieme resultat")
+
+## Exercices localStorage
+
+Le but de cet exercice est de se familiariser avec l'utilisation du localStorage
+
+1. Récupérez le contenu de localStorage sous la clé **users**
+2. Affichez-le dans une balise <div> de manière user-friendly
+3. Ajoutez les utilisateurs **Marcel** et **Jean-Jacques** dans le storage et vérifiez le résultat avec le bouton 
+
+### Questions
+
+1. De quelle(s) manière(s) peut-on vérifier le contenu du localStorage ?
+2. Dans quels cas on utilise le localStorage ou les cookies ? Donnez un exemple pour chacun
