@@ -144,13 +144,13 @@ WebWorkers API ne fonctionne pas en local avec **Google Chrome**, il va falloir 
 
 Pour la première partie, l'objectif va être de multiplier la valeur 1 par la valeur 2 et d'afficher le résultat dessous. Pour ce faire, le fichier main.js est déjà complet, il vous faudra modifier le fichier *worker.js* contenant la logique du Worker. Voici le résultat souhaité :
 
-![Capture](C:\Users\Sacha.GRENIER\Desktop\WebWorkers\Capture.PNG)
+![Capture](./img-readme01.PNG)
 
 #### Partie 2
 
 Si l'utilisateur tape du texte dans les champs, le calcul ne doit plus être une multiplication mais une addition. Voici le résultat souhaité : 
 
-![Capture2](C:\Users\Sacha.GRENIER\Desktop\WebWorkers\Capture2.PNG)
+![Capture2](./img-readme02.PNG)
 
 #### Aide : 
 
