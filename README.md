@@ -2,7 +2,7 @@
 
 ## Exercices manipulation de DOM - [ 15 min ]
 
-1. Créer une page HTML5 en suivant l'image en indication et y inclure la librairie Bulma.
+1. Créer une page HTML5 en suivant l'<a href="https://github.com/NicolasHenryCPNV/RIA1HTML5/blob/master/data-help/format_document.jpg">image</a> en indication et y inclure la librairie Bulma.
 2. Ajouter un formulaire qui, à l'envoi, rajoute la valeur d'un input dans la page (pas de rafraichissement ni AJAX).
 
 ### Exercice avancé
